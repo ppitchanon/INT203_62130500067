@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Discord</title>
+
+  <!-- https://google.github.io/material-design-icons/#icon-font-for-the-web -->
+  <!-- Using via Google Web Fonts -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  
+  <!-- https://tailwindcss.com/docs/installation -->
+  <!-- Using Tailwind via CDN -->
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet" />
+
+  <!-- https://iconmonstr.com/ -->
+  <!-- Using Iconmonstr CDN -->
+  <link href="https://cdn.iconmonstr.com/1.3.0/css/iconmonstr-iconic-font.min.css" rel="stylesheet" />
+
+  <!-- https://v3.vuejs.org/guide/installation.html#release-notes -->
+  <!-- Vue CDN -->
+  <script src="https://unpkg.com/vue@next"></script>
+
+  <!-- css -->
+  <link href="styles.css" rel="stylesheet" />
+
+</head>
+
+<body>
+  <div class="mx-auto">
+    <!-- <black> -->
+
+      <div class="w-full bg-black bg-opacity-90">
+        <header>
+          <img class="logo ml-24" src = "images/logo1.svg"  width="145" height="40">
+           <nav>
+               <ul class = " mr-24 nav__links">
+                 <li><a class="text-white  hover:underline  text-base font-medium" href="#">Download</a></li>
+                 <li><a class="text-white  hover:underline  text-base font-medium" href="#">Why Discord?</a></li>
+                 <li><a class="text-white  hover:underline  text-base font-medium" href="#">Nitro</a></li>
+                 <li><a class="text-white  hover:underline  text-base font-medium" href="#">Safety</a></li>
+                 <li><a class="text-white  hover:underline  text-base font-medium" href="#">Support</a></li>
+               </ul>
+           </nav>
+           <a class="mr-24 border border-2 bg-white hover:text-purple-400 hover:border-gray-300 transition delay-75 duration-500 ease-in-out rounded-full h-12 w-24 flex items-center justify-center " href="#">
+                    <p class="text-center p-3 pl-4 font-semibold">Login</p>
+                </a>
+         </header>
+         </div>
+
+    <div class="w-full bg-black bg-opacity-90">
+      <div class="grid grid-cols-2 gap-2">
+        <div>
+          <div class ="pt-14 pl-80 mt-15 text-white text-5xl font-bold ">Get Discord for any</div>
+          <div class ="pt-4 pl-80 mt-15 text-white text-5xl font-bold ">device</div>
+          <div class ="pt-12 pl-80 mt-15 text-white text-2xl font-normal">An adventure awaits. Hang out with your friends on our</div>
+          <div class ="pt-1 pl-80 mt-15 text-white text-2xl font-normal">desktop app and keep the conversation going on mobile.</div>
+          <div class="pt-12 pl-80 mt-15 grid grid-cols-2 gap-2">
+            <div class="rounded-full  h-14 w-68 bg-indigo-400 hover:bg-indigo-300 ">
+              <p class="font-semibold text-white text-xl text-center p-3 pl-14">Download for Windows</p>
+              <div><svg class="h-7 w-7 text-white -my-10 mx-7"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <path d="M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2 -2v-2" />  <polyline points="7 11 12 16 17 11" />  <line x1="12" y1="4" x2="12" y2="16" /></svg></div>
+            </div>
+            <div class ="pt-4 pl-6 text-left text-white text-sm font-normal">Windows 7 or higher</div>
+          </div>
+        </div>
+        <div><img class ="pt-14 pl-20 pb-36" src="images/compu1.svg"></div>
+      </div>
+    </div>
+    
+    <div class="flex flex-row justify-center min-h-screen px-24 bg-white mt-20"> 
+      <div class="flex justify-center w-full px-2 py-2 m-2 text-center bg-white">             
+        
+        <div class="bg-gray-100  w-full ml-80 mb-80 rounded-xl">
+          <div class ="text-black text-5xl font-normal pl-30 mt-20">Linux</div>
+          <div class="pl-44 mt-6">
+            <div class="rounded-full h-14 w-36 bg-gray-900 hover:bg-gray-700 hover:shadow-xl transition delay-75">
+              <p class="font-semibold text-white text-xl text-center p-3 pl-4">Download</p>
+            </div>
+          </div>
+          <div><img class="h-64 mt-24 w-full" src="images/Linux.svg"></div>
+        </div> 
+         
+      </div>         
+      <div class="flex justify-center w-full px-2 py-2 m-2 text-center bg-white">             
+        
+        <div class="bg-gray-100  w-full mt-32 mr-80 mb-44 rounded-xl">
+          <div class ="text-black text-5xl font-normal pl-30 mt-20">Mac</div>
+          <div class="pl-44 mt-6">
+            <div class="rounded-full h-14 w-36 bg-gray-900 hover:bg-gray-700 hover:shadow-xl transition delay-75">
+              <p class="font-semibold text-white text-xl text-center p-3 pl-4">Download</p>
+            </div>
+          </div>
+          <div><img class="h-60 mt-28 w-full" src="images/Mac.svg"></div>
+        </div>
+          
+      </div>
+    </div>
+      
+    <div class="bg-black bg-opacity-90 text-white h-full pb-6 lg:pb-16">
+      <!-- about 1-->
+      <div class="container mx-auto pt-10 px-10 max-w-6xl border-b-2 pb-14 border-indigo-300">
+          <div class="flex flex-col sm:flex-col md:flex-row lg:flex-row lx:flex-row px-auto">
+              <div class="flex flex-col pt-7 px-auto pr-15">
+                <p class="text-gray-400 m-1.5 mb-4 text-3xl font-semibold text-indigo-300">Your place to talk</p>
+                <div class = "flex">
+                  <img class="h-4 ml-3 mt-2" src="images/USA.png">
+                  <a href="#" class="m-1.5 ml-4 text-sm">English, USA</a>
+                </div>
+                <div class="mt-6 ml-3">
+                  <i class="im im-twitter"></i>
+                  <i class="im im-instagram ml-5"></i>
+                  <i class="im im-facebook ml-7"></i>
+                  <i class="im im-youtube ml-7"></i>
+                </div>
+            </div>
+              <div class="flex flex-col pt-7 pl-32">
+                <p class="text-indigo-300 m-1.5 mb-4">Product</p>
+                <a href="#" class="m-1.5 hover:underline transition duration-200 ">Download</a>
+                <a href="#" class="m-1.5 hover:underline transition duration-200 ">Why Discord</a>
+                <a href="#" class="m-1.5 hover:underline transition duration-200 ">Inspriration</a>
+                <a href="#" class="m-1.5 hover:underline transition duration-200 ">College</a>
+                <a href="#" class="m-1.5 hover:underline transition duration-200 ">Nitro</a>
+                <a href="#" class="m-1.5 hover:underline transition duration-200 ">Status</a>
+            </div>
+              <div class="flex flex-col pt-7 pl-20">
+                  <p class="text-indigo-300 m-1.5 mb-4">Company</p>
+                  <a href="#" class="m-1.5 hover:underline transition duration-200 ">About</a>
+                  <a href="#" class="m-1.5 hover:underline transition duration-200 ">Jobs</a>
+                  <a href="#" class="m-1.5 hover:underline transition duration-200 ">Brainding</a>
+                  <a href="#" class="m-1.5 hover:underline transition duration-200 ">Newsroom</a>
+                  <a href="#" class="m-1.5 hover:underline transition duration-200 ">Store</a>
+              </div>
+              <div class="flex flex-col pt-7 pl-20">
+                  <p class="text-indigo-300 m-1.5 mb-4">Resources</p>
+                  <a href="#" class="m-1.5 hover:underline transition duration-200 ">Support</a>
+                  <a href="#" class="m-1.5 hover:underline transition duration-200 ">Safety</a>
+                  <a href="#" class="m-1.5 hover:underline transition duration-200 ">Blog</a>
+                  <a href="#" class="m-1.5 hover:underline transition duration-200 ">Feetback</a>
+                  <a href="#" class="m-1.5 hover:underline transition duration-200 ">Partner</a>
+                  <a href="#" class="m-1.5 hover:underline transition duration-200 ">Verification</a>
+                  <a href="#" class="m-1.5 hover:underline transition duration-200 ">Developers</a>
+                  <a href="#" class="m-1.5 hover:underline transition duration-200 ">StreamKit</a>
+                  <a href="#" class="m-1.5 hover:underline transition duration-200 ">Open Source</a>
+                  <a href="#" class="m-1.5 hover:underline transition duration-200 ">Security</a>
+                  <a href="#" class="m-1.5 hover:underline transition duration-200 ">Moderation</a>
+              </div>
+              <div class="flex flex-col pt-7 pl-20">
+                  <p class="text-indigo-300 m-1.5 mb-4">Policies</p>
+                  <a href="#" class="m-1.5 hover:underline transition duration-200 ">Terms</a>
+                  <a href="#" class="m-1.5 hover:underline transition duration-200 ">Privacy</a>
+                  <a href="#" class="m-1.5 hover:underline transition duration-200 ">Guidelines</a>
+                  <a href="#" class="m-1.5 hover:underline transition duration-200 ">Acknowledgements</a>
+                  <a href="#" class="m-1.5 hover:underline transition duration-200 ">Licenses</a>
+              </div>
+          </div>
+          
+    </div>
+    <div class="flex flex-row justify-between">
+      <div class="mt-5 ml-64">
+        <img class="logo ml-24" src = "images/logo1.svg"  width="145" height="40">
+      </div>
+      <div class="rounded-full h-10 w-24 mr-96 mt-10 bg-indigo-400 hover:bg-indigo-300">
+        <p class="font-semibold text-white text-base text-center pt-2">Sign Up</p>
+      </div>
+    </div>
+  </div>  
+</body>
+
+</html>
