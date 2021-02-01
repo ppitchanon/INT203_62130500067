@@ -1,6 +1,6 @@
 # Groupwork 1 
 ## Referent  
-### Web site Templaete 
+### Original Web Page 
 - https://discord.com/download
 ![alt text](/62130500067_groupwork_1/images/screenshort.png?raw=true "Discord")
 ### CSS Framework 
